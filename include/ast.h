@@ -726,7 +726,7 @@ public:
     void setId(IdDefAST *id) { Id = id; }
 
 #ifndef __USE_C_MODULE_TRANSLATION_METHOD__
-    Value       *getLLVMValue()       { Id->getLLVMValue(); }
+    Value       *getLLVMValue()       { return Id->getLLVMValue(); }
 #endif
     IdDefAST    *getId()              { return Id; }
     std::string  getIdName()    const { return IdName; }
@@ -756,7 +756,7 @@ public:
     void setId(IdDefAST *id) { Id = id; }
 
 #ifndef __USE_C_MODULE_TRANSLATION_METHOD__
-    Value                        *getLLVMValue()      { Id->getLLVMValue(); }
+    Value                        *getLLVMValue()      { return Id->getLLVMValue(); }
 #endif
     IdDefAST                     *getId()             { return Id; }
     const std::vector<ExprAST*>  &getIndexes()  const { return Indexes; }

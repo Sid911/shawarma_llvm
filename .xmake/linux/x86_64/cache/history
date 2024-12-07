@@ -1,0 +1,23 @@
+{
+    cmdlines = {
+        "xmake lua /usr/share/xmake/modules/private/utils/statistics.lua",
+        "xmake lua /usr/share/xmake/actions/build/cleaner.lua",
+        "xmake -v",
+        "xmake ",
+        "xmake -v",
+        "xmake -v",
+        "xmake -v",
+        "xmake -v",
+        "xmake -v",
+        "xmake -v",
+        "xmake -j 10",
+        "xmake -j 10",
+        "xmake -v -j 10",
+        "xmake -v -j 10",
+        "xmake -v -j 10",
+        "xmake -v -j 10",
+        "xmake -v -j 10",
+        "xmake -v -j 10",
+        "xmake -v -j 10"
+    }
+}

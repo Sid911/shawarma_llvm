@@ -229,7 +229,7 @@ int main(int argc, char *argv[]) {
             cmd = "./" + OutputFileName + " > output.txt";
             auto res = system(cmd.c_str());
             if(res) return res;
-            cmd = "FileCheck-15 " + CheckInputFile + " --input-file=output.txt";
+            cmd = "FileCheck " + CheckInputFile + " --input-file=output.txt";
             res = system(cmd.c_str());
             system("rm output.txt");
             return res;

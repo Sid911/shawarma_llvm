@@ -58,7 +58,7 @@ protected:
 private:
     llvm::FunctionType *getFunctionTypeByFuncASTNode(FuncAST *);
     llvm::Type         *getLLVMType(DataTypeAST *);
-    llvm::Type         *kaleTypeToLLVMType(KType ty);
+    llvm::Type         *shwTypeToLLVMType(KType ty);
     llvm::Constant     *createConstantValue(llvm::Type *ty);
 
     long                getConstIntByExpr(ExprAST *expr);

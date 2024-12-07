@@ -59,7 +59,6 @@ namespace shw {
 
 
     void DumpVisitor::preAction(ASTBase *node) {
-        // write you code here;
         for (int i = 0; i < deepTh; i++) {
             if (i == deepTh - 1) {
                 std::cout << "|-";
@@ -120,7 +119,6 @@ namespace shw {
 
 
     void DumpVisitor::postAction(ASTBase *node) {
-        // write you code here;
         deepTh--;
     }
 

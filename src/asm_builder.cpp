@@ -119,7 +119,7 @@ namespace shw {
             dest.close();
         }
 
-        std::string cmd = "clang++-15 ";
+        std::string cmd = "clang++ ";
         cmd += "-L" + Rpath + "/../lib ";
         for(auto &file : ObjFileList) {
             cmd += file + " ";

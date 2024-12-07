@@ -1,4 +1,3 @@
-
 set(CMAKE_CXX_STANDARD 17)
 
 if(BUILD_WITH_CMODEL)
@@ -25,8 +24,8 @@ if(BUILD_WITH_CMODEL)
             PUBLIC ${PROJECT_SOURCE_DIR}/include
     )
 else ()
-    message(STATUS "Build with llvm-15")
-    find_package(LLVM 15 REQUIRED CONFIG)
+    message(STATUS "Build with llvm-20")
+    find_package(LLVM 20 REQUIRED CONFIG)
 
     #set(ARCHS
     #    AArch64

@@ -1,0 +1,26 @@
+{
+    recheck = false,
+    mtimes = {
+        ["/usr/share/xmake/includes/check/check_csnippets.lua"] = 1730216385,
+        ["shw_std/xmake.lua"] = 1732733881,
+        ["/usr/share/xmake/includes/check/check_sizeof.lua"] = 1730216385,
+        ["/usr/share/xmake/includes/check/check_cfuncs.lua"] = 1730216385,
+        ["/usr/share/xmake/includes/check/check_cxxsnippets.lua"] = 1730216385,
+        ["/usr/share/xmake/includes/check/check_links.lua"] = 1730216385,
+        ["xmake.lua"] = 1732758603,
+        ["/usr/share/xmake/includes/check/check_syslinks.lua"] = 1730216385,
+        ["/usr/share/xmake/includes/check/xmake.lua"] = 1730216385,
+        ["src/xmake.lua"] = 1732758636,
+        ["/usr/share/xmake/includes/check/check_cflags.lua"] = 1730216385,
+        ["/usr/share/xmake/includes/check/check_cxxflags.lua"] = 1730216385,
+        ["/usr/share/xmake/includes/check/check_macros.lua"] = 1730216385,
+        ["/usr/share/xmake/includes/check/check_cxxincludes.lua"] = 1730216385,
+        ["/usr/share/xmake/includes/check/check_ctypes.lua"] = 1730216385,
+        ["/usr/share/xmake/includes/check/check_bigendian.lua"] = 1730216385,
+        ["/usr/share/xmake/includes/check/check_features.lua"] = 1730216385,
+        ["/usr/share/xmake/includes/check/check_cxxfuncs.lua"] = 1730216385,
+        ["/usr/share/xmake/includes/check/check_cxxtypes.lua"] = 1730216385,
+        ["/usr/share/xmake/includes/check/check_cincludes.lua"] = 1730216385
+    },
+    options = { }
+}

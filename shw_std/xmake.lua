@@ -1,0 +1,5 @@
+target("shw_std")
+  set_kind("static")
+  add_files("kaledioscope_std.c")
+  add_cflags("-fPIE", {force = true})
+target_end()

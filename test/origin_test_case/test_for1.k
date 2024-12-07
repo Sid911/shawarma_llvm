@@ -1,14 +1,15 @@
 
-def main() : int {
-    int i, j;
+recipe main() : i32{
+    ing i: i32;
+    ing j: i32;
     i = 10;
-    for (j = 0 ; j < i ; j = j + 1) in {
-        Print("%d ", j);
-        if (j >= i - 2) then {
+    stir(j = 0 ; j < i ; j = j + 1) in {
+        serve("%d ", j);
+        taste(j >= i - 2) then {
            break;
         }
     }
-    PrintLn("");
+    serveLn("");
     return 0;
 }
 

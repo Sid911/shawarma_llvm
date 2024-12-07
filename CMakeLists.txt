@@ -31,7 +31,7 @@ else()
 endif()
 
 execute_process(
-        COMMAND FileCheck-14 --version
+        COMMAND FileCheck --version
         RESULT_VARIABLE result_var
 )
 
